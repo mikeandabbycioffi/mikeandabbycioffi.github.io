@@ -225,7 +225,7 @@ body {
 .background--floral {
   margin-bottom: 25px;
   animation: moveInLeft 1s ease-out;
-  height: 7rem;
+  height: 6rem;
   background-image: url(../img/gold-leaf-4.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -240,12 +240,15 @@ footer {
 
 #us {
   margin-top: 4vh;
-  max-width: 50vw;
+  max-width: 55%;
   border-radius: 15px;
   opacity: 0;
   animation: moveInTop 1s ease-out;
   animation-delay: .5s;
   animation-fill-mode: forwards; }
+  @media (min-device-width: 320px) and (max-device-width: 768px) {
+    #us {
+      max-width: 95%; } }
 
 .nav {
   animation: moveInLeft 1s ease-out;
