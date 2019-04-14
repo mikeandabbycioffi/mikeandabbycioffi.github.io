@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+	<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css" />
+
+	<title>Cioffi | Mike and Abby Wedding </title>
+</head>
+
+
+<body class='container'>
+	<section class="section-main">
+		<div class="row u-half-row">
+
+			<div class="u-half-row-verticle-center-text-center ">
+				<span class="heading-primary--main">Mike & Abby</span>
+				<div class="background--floral"></div>
+
+				<span class="heading-primary--sub">September 20 2019</span>
+
+
+				<ul class="nav">
+					<li>
+						<a href="#section-projects" class="btn-text btn-text--gold">Travel Details</a>
+
+					</li>
+					<li>
+
+						<a href="#section-projects" class="btn-text btn-text--gold">Registry</a>
+
+					</li>
+
+					<li>
+
+						<a href="#section-projects" class="btn-text btn-text--gold"> Send Encouragement</a>
+					</li>
+
+				</ul>
+
+
+
+				<img id="us" src="img/me.jpg">
+
+			</div>
+		</div>
+	</section>
+	<section id="section-about" class="section-about">
+		<div class="row u-half-row">
+			<div class="col-1-of-3">
+				<div class="u-half-row-verticle-center-text-right ">
+
+					<div class="typewriter">
+						<h1>Hi...</h1>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-2-of-3 nav">
+				<div class="u-half-row-verticle-center-text-center">
+					<p class="about-me-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero
+						molestias
+						soluta at amet vel sunt suscipit accusantium necessitatibus inventore deleniti sed quia cumque
+						tempora explicabo, dolor minima debitis natus.Lorem ipsum dolor, sit amet consectetur
+						adipisicing elit. Commodi
+						expedita quo possimus animi odit, perspiciatis illum in minus cupiditate rerum accusantium
+						magnam officiis incidunt repellendus esse optio magni dolore ipsa?</p>
+
+
+					<a href="#section-projects" class="btn-text btn-text--projects">Projects &darr;</a>
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+	</section>
+
+	<section id="section-projects">
+
+		<div class="row-project u-third-row">
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+
+					project 1
+
+				</div>
+
+			</div>
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+					project 2
+
+				</div>
+
+			</div>
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+					project 3
+				</div>
+
+			</div>
+
+
+		</div>
+		<div class="row-project u-third-row">
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+
+					project 1
+
+				</div>
+
+			</div>
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+					project 2
+
+				</div>
+
+			</div>
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+					project 3
+				</div>
+
+			</div>
+
+
+		</div>
+		<div class="row-project u-third-row">
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+
+					project 1
+
+				</div>
+
+			</div>
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+					project 2
+
+				</div>
+
+			</div>
+			<div class="col-1-of-3-project">
+				<div class="project-column project-column--pic1">
+					project 3
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+
+	</section>
+
+	<!-- Return to Top -->
+	<a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
+	<!-- Test the scroll -->
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		// Add smooth scrolling to all links
+		$("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 0, function() {
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+
+				});
+			} // End if
+		});
+	});
+
+</script>
+<script>
+	// ===== Scroll to Top ==== 
+	$(window).scroll(function() {
+		if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
+			$('#return-to-top').fadeIn(200); // Fade in the arrow
+		} else {
+			$('#return-to-top').fadeOut(200); // Else fade out the arrow
+		}
+	});
+	$('#return-to-top').click(function() { // When arrow is clicked
+		$('body,html').animate({
+			scrollTop: 0 // Scroll to top of body
+		}, 0);
+	});
+
+</script>
+
+</html>
