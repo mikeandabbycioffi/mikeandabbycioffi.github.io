@@ -12,11 +12,10 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
-
 .background--floral {
 	margin-bottom: $margin-top-small;
 	animation: moveInLeft 1s ease-out;
-	height: 70px;
+	height: 7rem;
 	background-image: url(../img/gold-leaf-4.png);
 	background-position: center center;
 	background-repeat: no-repeat;

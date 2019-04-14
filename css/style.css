@@ -35,7 +35,7 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Mindline Script Demo", monospace;
-  padding: 0 10vh;
+  padding: 3vh 10vh;
   font-weight: 400;
   line-height: 1;
   color: #777; }
@@ -142,7 +142,7 @@ body {
     display: block;
     color: #000;
     font-family: "Mindline Script Demo", monospace;
-    font-size: 20rem;
+    font-size: 15rem;
     font-weight: 400;
     letter-spacing: 1rem;
     /*
@@ -194,7 +194,7 @@ body {
 .background--floral {
   margin-bottom: 25px;
   animation: moveInLeft 1s ease-out;
-  height: 70px;
+  height: 7rem;
   background-image: url(../img/gold-leaf-4.png);
   background-position: center center;
   background-repeat: no-repeat;
