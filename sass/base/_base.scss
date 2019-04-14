@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+
+
+html {
+	// this is what 1 rem is.
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+
+body {
+
+	box-sizing: border-box;
+	font-family: $font-primary;
+	padding: 0 10vh;
+	font-weight: 400;
+	line-height: 1;
+	color: $color-grey-dark;
+
+}
+
+@font-face {
+	font-family: "Mindline Script Demo";
+	src: url('fonts/Mindline Script Demo.ttf') format("truetype");
+
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 768px) {
+
+	/* Styles */
+	html {
+
+		font-size: 25%;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 375px) {
+
+	/* Styles */
+	html {
+
+		font-size: 20%;
+	}
+}
