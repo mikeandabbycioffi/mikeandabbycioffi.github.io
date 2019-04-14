@@ -23,8 +23,11 @@
 		color: $color-black;
 		font-size: 1.5rem;
 		font-weight: 100;
-		letter-spacing: 1rem;
+		letter-spacing: .5rem;
 		animation: moveInRight 1s ease-out;
+		sup{
+			letter-spacing: 0;
+		}
 	}
 }
 
