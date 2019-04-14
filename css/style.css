@@ -47,9 +47,7 @@ body {
 @media only screen and (min-device-width: 375px) and (max-device-width: 768px) {
   /* Styles */
   html {
-    font-size: 25%; }
-  .nav {
-    display: inline-block; } }
+    font-size: 25%; } }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 375px) {
   /* Styles */
