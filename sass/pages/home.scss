@@ -54,11 +54,7 @@ footer {
 
 	li {
 		list-style: none;
-		margin: 0 1vw;
-
-		a{
-			height: 3rem;
-		}
+		margin: 0 2vw;
 	}
 }
 
@@ -96,43 +92,21 @@ footer {
 }
 
 
-#section-about,
-#section-projects {
-	height: 100vh;
-
-}
-
-.section-about {
+#section-travel,
+#section-registry {
+	display: flex;
 	margin-top: 35vh;
+	height: 95vh;
 	color: $color-tertiary-light;
 	background-color: $color-white;
 }
 
 
-.row-project {
+.registry-column {
+	height: $grid-row-height-small;
 
-	max-width: grid-width;
-	margin: 0 auto;
-	@include clearfix;
-
-	[class ^="col-"] {
-		float: left;
-
-
-
-	}
-
-	.col-1-of-3-project {
-		width: calc(100%/3);
-
-
-	}
-}
-
-.project-column {
-	height: $grid-row-height-medium;
-
-	&--pic1 {
+	&--1 {
+		background-image: url(../img/registry-logos/Crate\ and\ Barrel\ Logo.png);
 		overflow: hidden;
 		background-size: cover;
 		background-position: center center;

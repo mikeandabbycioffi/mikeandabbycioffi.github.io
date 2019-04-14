@@ -63,8 +63,9 @@
 }
 
 .btn-text {
-	 display: inline-block;
-
+	padding: 5px;
+	box-sizing: border-box;
+	height: 2.7rem;
 	font-family: $font-secondary;
 
 	&:link,
@@ -73,7 +74,6 @@
 		//eddited out color for this website color: $color-tertiary-light;
 		text-decoration: none;
 		// border-bottom: 1px solid $color-tertiary-light;
-		padding: 3px;
 		transition: all .2s;
 	}
 
@@ -96,9 +96,20 @@
 
 		&:hover {
 			background-color: $color-tertiary-light;
-			border-bottom: 1px solid $color-tertiary-light;
+			border-bottom: 1px solid $color-white;
 
 		}
+	}
+	&--black {
+			color: $color-tertiary-light;
+			border: 3px solid $color-tertiary-light;
+			background-color: $color-white;
+
+	
+			&:hover {
+				background-color: $color-tertiary-light;
+				color: $color-white;
+			}
 	}
 
 
