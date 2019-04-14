@@ -39,6 +39,10 @@ body {
 
 		font-size: 25%;
 	}
+	.nav {
+	
+		display: inline-block;
+	}
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 375px) {
@@ -49,3 +53,4 @@ body {
 		font-size: 20%;
 	}
 }
+

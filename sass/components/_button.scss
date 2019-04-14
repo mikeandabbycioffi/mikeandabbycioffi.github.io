@@ -63,6 +63,7 @@
 }
 
 .btn-text {
+	 display: inline-block;
 
 	font-family: $font-secondary;
 
@@ -70,7 +71,6 @@
 	&:visited {
 		font-size: $default-font-size *1.25;
 		//eddited out color for this website color: $color-tertiary-light;
-		display: inline-block;
 		text-decoration: none;
 		// border-bottom: 1px solid $color-tertiary-light;
 		padding: 3px;

@@ -47,7 +47,9 @@ body {
 @media only screen and (min-device-width: 375px) and (max-device-width: 768px) {
   /* Styles */
   html {
-    font-size: 25%; } }
+    font-size: 25%; }
+  .nav {
+    display: inline-block; } }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 375px) {
   /* Styles */
@@ -224,6 +226,8 @@ footer {
   .nav li {
     list-style: none;
     margin: 0 1vw; }
+    .nav li a {
+      height: 3rem; }
 
 .nav-link {
   font-family: monospace;
@@ -322,10 +326,10 @@ footer {
   animation-fill-mode: backwards; }
 
 .btn-text {
+  display: inline-block;
   font-family: monospace; }
   .btn-text:link, .btn-text:visited {
     font-size: 2rem;
-    display: inline-block;
     text-decoration: none;
     padding: 3px;
     transition: all .2s; }
