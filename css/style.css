@@ -182,7 +182,6 @@ body {
   margin-bottom: 15px; }
 
 .travel--text {
-  margin-top: 5vh;
   text-align: left;
   line-height: 4rem;
   font-family: "Roboto", sans-serif;
@@ -298,6 +297,9 @@ footer {
     height: 125px;
     margin: 0 15px;
     border: 4px solid #000; }
+    @media (min-device-width: 320px) and (max-device-width: 768px) {
+      .registry-row img {
+        max-width: 80vw; } }
     .registry-row img:hover {
       transform: scale(1.05);
       cursor: pointer;
