@@ -100,16 +100,19 @@
 
 		}
 	}
-	&--black {
-			color: $color-tertiary-light;
-			border: 3px solid $color-tertiary-light;
-			background-color: $color-white;
 
-	
-			&:hover {
-				background-color: $color-tertiary-light;
-				color: $color-white;
-			}
+	&--black {
+		color: $color-tertiary-light;
+		border: 3px solid $color-black;
+		background-color: $color-white;
+
+
+		&:hover {
+			background-color: $color-tertiary-light;
+			border: 3px solid $color-tertiary-light;
+
+			color: $color-white;
+		}
 	}
 
 

@@ -25,7 +25,8 @@
 		font-weight: 100;
 		letter-spacing: .5rem;
 		animation: moveInRight 1s ease-out;
-		sup{
+
+		sup {
 			letter-spacing: 0;
 		}
 	}
@@ -40,7 +41,7 @@
 
 
 
-.travel--text{
+.travel--text {
 	margin-top: 5vh;
 	text-align: left;
 	line-height: 4rem;
@@ -49,35 +50,41 @@
 	width: 100%;
 
 
-h1 {
-	padding: 1rem 1rem;
-	font-family: $font-secondary;
-	color: $color-tertiary-light;
-	border-bottom: 2px solid $color-black;
-	font-size: 5rem;
-	overflow: hidden;
-	margin: 0 auto;
-	/* Gives that scrolling effect as the typing happens */
-	letter-spacing: .15em;
-	/* Adjust as needed */
-}
-h2{
-font-size: 3rem;
-}
-h3{
-	strong{
-		font-size: 3rem;
-
+	h1 {
+		padding: 1rem 1rem;
+		font-family: $font-secondary;
 		color: $color-tertiary-light;
+		border-bottom: 2px solid $color-black;
+		font-size: 5rem;
+		overflow: hidden;
+		margin: 0 auto;
+		/* Gives that scrolling effect as the typing happens */
+		letter-spacing: .15em;
+		/* Adjust as needed */
 	}
-	font-size: 1.5rem;
 
-	
+	h2 {
+		font-size: 3rem;
+	}
+
+	h3 {
+		strong {
+			font-size: 3rem;
+
+			color: $color-tertiary-light;
+		}
+
+		font-size: 1.5rem;
+
+
+	}
+
+	p {
+		font-size: 1.5rem;
+	}
+
 }
 
-p{
-	font-size: 1.5rem;
-}	
-
+#registry--text {
+	text-align: center;
 }
-
