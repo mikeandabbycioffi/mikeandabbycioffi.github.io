@@ -58,9 +58,9 @@ body {
   body {
     padding: 3vh 5vw; } }
 
-@media (min-device-width: 425) and (orientation: landscape) and (max-device-width: 768) {
+@media screen and (orientation: landscape) {
   #us {
-    opacity: 0; } }
+    display: none; } }
 
 .u-center-text {
   text-align: center; }

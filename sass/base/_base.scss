@@ -62,8 +62,8 @@ body {
 
 }
 
-@media (min-device-width: 425) and (orientation:landscape) and (max-device-width: 768) {
+@media screen and (orientation:landscape) {
 	#us {
-		opacity: 0;
+		display: none;
 	}
 }
