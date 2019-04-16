@@ -7,11 +7,6 @@
 	/* height of your footer */
 }
 
-.section-main {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
 
 .background--floral {
 	margin-bottom: $margin-top-small;
@@ -27,7 +22,6 @@ footer {
 	position: absolute;
 	bottom: 0;
 	height: 15px;
-
 	background-color: red;
 	width: 100%;
 }
@@ -37,7 +31,6 @@ footer {
 	max-width: 65%;
 	border-radius: 15px;
 	opacity: 0;
-
 	animation: moveInTop 1s ease-out;
 	animation-delay: .5s;
 	animation-fill-mode: forwards;
@@ -95,12 +88,10 @@ footer {
 }
 
 
-#section-travel,
-#section-registry {
+.section {
 	display: flex;
 	justify-content: center;
-	margin-top: 35vh;
-	height: 95vh;
+	height: 100vh;
 	color: $color-tertiary-light;
 	background-color: $color-white;
 }

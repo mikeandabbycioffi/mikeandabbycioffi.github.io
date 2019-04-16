@@ -39,12 +39,13 @@ body {
 
 		font-size: 25%;
 	}
-	body{
-	padding: 3vh 5vw;
+
+	body {
+		padding: 3vh 5vw;
 	}
 
-	
-	
+
+
 }
 
 @media(min-device-width : 320px) and (max-device-width : 375px) {
@@ -54,9 +55,15 @@ body {
 
 		font-size: 20%;
 	}
-	body{
+
+	body {
 		padding: 3vh 5vw;
-		}
-	
+	}
+
 }
 
+@media (min-device-width: 425) and (orientation:landscape) and (max-device-width: 768) {
+	#us {
+		opacity: 0;
+	}
+}
