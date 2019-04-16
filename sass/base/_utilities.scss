@@ -28,39 +28,30 @@
 }
 
 .u-half-row-verticle-center-text-center {
-	width: 100%;
-	height: $grid-row-height-large;
-	//isplay: table-cell;
-	vertical-align: top;
+
 	text-align: center;
 }
 
 .u-half-row-verticle-center-text-right {
-	width: $grid-row-height-large;
-	height: $grid-row-height-large;
-	display: table-cell;
-	vertical-align: top;
+
 	text-align: right;
 
 }
 
 .u-half-row-verticle-center-text-right {
-	height: $grid-row-height-large;
-	display: table-cell;
-	vertical-align: top;
+
 	text-align: right;
 
 }
-.u-flex-center{
+
+.u-flex-center {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 }
 
 
-.u-half-row {
-	height: $grid-row-height-large;
-}
+.u-half-row {}
 
 .u-third-row {
 	height: $grid-row-height-medium;

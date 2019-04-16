@@ -62,8 +62,13 @@ body {
 
 }
 
-@media screen and (orientation:landscape) {
+@media (max-device-width : 768px) and (orientation: landscape) {
+	.section {
+		height: auto !important;
+		margin-bottom: 20vh;
+	}
+
 	#us {
-		display: none;
+		height: 200px !important;
 	}
 }

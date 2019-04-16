@@ -91,6 +91,7 @@ footer {
 .section {
 	display: flex;
 	justify-content: center;
+	width: 90vw;
 	height: 100vh;
 	color: $color-tertiary-light;
 	background-color: $color-white;
@@ -102,16 +103,15 @@ footer {
 	img {
 		transition: all .3s;
 		padding: 25px;
-		max-width: 100%;
+		max-width: 75%;
 		height: 125px;
 		margin: 0 15px;
 		border: 4px solid $color-black;
 
 		@media(min-device-width: 320px) and (max-device-width: 768px) {
 
-			max-width: 80vw;
+			max-width: 400px;
 		}
-
 
 
 		&:hover {

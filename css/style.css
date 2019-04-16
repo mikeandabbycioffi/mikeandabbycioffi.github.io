@@ -58,9 +58,12 @@ body {
   body {
     padding: 3vh 5vw; } }
 
-@media screen and (orientation: landscape) {
+@media (max-device-width: 768px) and (orientation: landscape) {
+  .section {
+    height: auto !important;
+    margin-bottom: 20vh; }
   #us {
-    display: none; } }
+    height: 200px !important; } }
 
 .u-center-text {
   text-align: center; }
@@ -81,31 +84,18 @@ body {
   margin-top: 10rem !important; }
 
 .u-half-row-verticle-center-text-center {
-  width: 100%;
-  height: 95vh;
-  vertical-align: top;
   text-align: center; }
 
 .u-half-row-verticle-center-text-right {
-  width: 95vh;
-  height: 95vh;
-  display: table-cell;
-  vertical-align: top;
   text-align: right; }
 
 .u-half-row-verticle-center-text-right {
-  height: 95vh;
-  display: table-cell;
-  vertical-align: top;
   text-align: right; }
 
 .u-flex-center {
   justify-content: center;
   align-items: center;
   align-content: center; }
-
-.u-half-row {
-  height: 95vh; }
 
 .u-third-row {
   height: 33vh; }
@@ -281,6 +271,7 @@ footer {
 .section {
   display: flex;
   justify-content: center;
+  width: 90vw;
   height: 100vh;
   color: #E1B22B;
   background-color: #fff; }
@@ -290,13 +281,13 @@ footer {
   .registry-row img {
     transition: all .3s;
     padding: 25px;
-    max-width: 100%;
+    max-width: 75%;
     height: 125px;
     margin: 0 15px;
     border: 4px solid #000; }
     @media (min-device-width: 320px) and (max-device-width: 768px) {
       .registry-row img {
-        max-width: 80vw; } }
+        max-width: 400px; } }
     .registry-row img:hover {
       transform: scale(1.05);
       cursor: pointer;
