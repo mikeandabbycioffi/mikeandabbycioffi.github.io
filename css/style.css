@@ -271,20 +271,29 @@ footer {
 .section {
   display: flex;
   justify-content: center;
-  width: 90vw;
+  flex-wrap: wrap;
+  max-width: 60%;
+  margin: 0 auto;
+  flex: 1;
   height: 100vh;
   color: #E1B22B;
   background-color: #fff; }
+  @media (min-device-width: 320px) and (max-device-width: 1300px) {
+    .section {
+      max-width: 100%; } }
 
 .registry-row {
   margin-top: 5vh; }
   .registry-row img {
+    box-sizing: border-box;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
     transition: all .3s;
     padding: 25px;
     max-width: 75%;
     height: 125px;
     margin: 0 15px;
-    border: 4px solid #000; }
+    border: 1px solid transparent; }
     @media (min-device-width: 320px) and (max-device-width: 425px) {
       .registry-row img {
         max-width: auto;
@@ -293,7 +302,6 @@ footer {
       .registry-row img {
         max-width: 400px; } }
     .registry-row img:hover {
-      transform: scale(1.05);
       cursor: pointer;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
       transform: translateY(-2px);
@@ -367,13 +375,13 @@ footer {
       background-color: #E1B22B;
       border-bottom: 1px solid #fff; }
   .btn-text--black {
-    color: #E1B22B;
-    border: 3px solid #000;
-    background-color: #fff; }
+    color: #fff;
+    background-color: #E1B22B;
+    border: 3px solid #E1B22B; }
     .btn-text--black:hover {
-      background-color: #E1B22B;
-      border: 3px solid #E1B22B;
-      color: #fff; }
+      border: 3px solid #000;
+      background-color: #fff;
+      color: #000; }
 
 #return-to-top {
   position: fixed;

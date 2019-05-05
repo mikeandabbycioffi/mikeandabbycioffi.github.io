@@ -91,22 +91,36 @@ footer {
 .section {
 	display: flex;
 	justify-content: center;
-	width: 90vw;
+	flex-wrap: wrap;
+	max-width: 60%;
+	margin: 0 auto;
+	flex: 1;
 	height: 100vh;
 	color: $color-tertiary-light;
 	background-color: $color-white;
+
+	@media(min-device-width: 320px) and (max-device-width: 1300px) {
+		max-width: 100%;
+
+	}
+
+
 }
 
 .registry-row {
 	margin-top: 5vh;
 
 	img {
+		box-sizing: border-box;
+		box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+		border-radius: 15px;
+
 		transition: all .3s;
 		padding: 25px;
 		max-width: 75%;
 		height: 125px;
 		margin: 0 15px;
-		border: 4px solid $color-black;
+		border: 1px solid transparent;
 
 		@media(min-device-width: 320px) and (max-device-width: 425px) {
 			max-width: auto;
@@ -121,7 +135,6 @@ footer {
 
 
 		&:hover {
-			transform: scale(1.05);
 			cursor: pointer;
 			box-shadow: 0 1rem 2rem rgba($color-black, .15);
 			transform: translateY(-2px);
