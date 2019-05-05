@@ -95,7 +95,7 @@ footer {
 	max-width: 60%;
 	margin: 0 auto;
 	flex: 1;
-	height: 100vh;
+	
 	color: $color-tertiary-light;
 	background-color: $color-white;
 
@@ -103,6 +103,11 @@ footer {
 		max-width: 100%;
 
 	}
+
+	&-main, &-details{
+		min-height: 100vh;
+	}
+
 
 
 }

@@ -275,12 +275,13 @@ footer {
   max-width: 60%;
   margin: 0 auto;
   flex: 1;
-  height: 100vh;
   color: #E1B22B;
   background-color: #fff; }
   @media (min-device-width: 320px) and (max-device-width: 1300px) {
     .section {
       max-width: 100%; } }
+  .section-main, .section-details {
+    min-height: 100vh; }
 
 .registry-row {
   margin-top: 5vh; }
