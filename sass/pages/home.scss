@@ -91,19 +91,22 @@ footer {
 .section {
 	display: flex;
 	justify-content: center;
-	width: 90vw;
 	height: 100vh;
 	color: $color-tertiary-light;
 	background-color: $color-white;
+
+	@media (max-width: 768px) {
+		height: auto;
+	}
 }
 
 .registry-row {
 	margin-top: 5vh;
 
 	img {
-		transition: all .3s;
+		transition: all .1s;
 		padding: 25px;
-		max-width: 75%;
+		max-width: 100%;
 		height: 125px;
 		margin: 0 15px;
 		border: 4px solid $color-black;
@@ -121,11 +124,11 @@ footer {
 
 
 		&:hover {
-			transform: scale(1.05);
 			cursor: pointer;
-			box-shadow: 0 1rem 2rem rgba($color-black, .15);
+			box-shadow: .4rem .5rem 1rem rgba($color-black, .5);
 			transform: translateY(-2px);
-			border: 1px solid $color-black;
+
+
 
 
 		}
