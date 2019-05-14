@@ -61,7 +61,6 @@
 	}
 
 }
-
 .btn-text {
 	padding: 5px;
 	box-sizing: border-box;
@@ -102,16 +101,18 @@
 	}
 
 	&--black {
-		color: $color-tertiary-light;
-		border: 3px solid $color-black;
-		background-color: $color-white;
+		color: $color-white;
+		background-color: $color-tertiary-light;
+		border: 3px solid $color-tertiary-light;
+	
 
 
 		&:hover {
-			background-color: $color-tertiary-light;
-			border: 3px solid $color-tertiary-light;
+		
+			border: 3px solid $color-black;
+			background-color: $color-white;
 
-			color: $color-white;
+			color: $color-black;
 		}
 	}
 
