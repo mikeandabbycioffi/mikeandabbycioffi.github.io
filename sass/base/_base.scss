@@ -32,12 +32,12 @@ body {
 
 }
 
-@media(min-device-width : 375px) and (max-device-width : 768px) {
+@media(min-device-width : 375px) and (max-device-width : 850px) {
 
 	/* Styles */
 	html {
 
-		font-size: 25%;
+		font-size: 35%;
 	}
 
 	body {
@@ -48,12 +48,12 @@ body {
 
 }
 
-@media(min-device-width : 320px) and (max-device-width : 375px) {
+@media(max-device-width : 375px) {
 
 	/* Styles */
 	html {
 
-		font-size: 20%;
+		font-size: 30%;
 	}
 
 	body {

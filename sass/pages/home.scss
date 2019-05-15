@@ -29,6 +29,7 @@ footer {
 #us {
 	margin-top: 4vh;
 	max-width: 65%;
+
 	border-radius: 15px;
 	opacity: 0;
 	animation: moveInTop 1s ease-out;
@@ -47,10 +48,11 @@ footer {
 	margin-top: $margin-top-small;
 	display: flex;
 	justify-content: center;
+	align-items: flex-end;
 
 	li {
 		list-style: none;
-		margin: 0 2vw;
+		margin: 0 2rem;
 	}
 }
 
@@ -94,8 +96,7 @@ footer {
 	flex-wrap: wrap;
 	max-width: 60%;
 	margin: 0 auto;
-	flex: 1;
-	
+	min-height: 50vh;
 	color: $color-tertiary-light;
 	background-color: $color-white;
 
@@ -104,7 +105,8 @@ footer {
 
 	}
 
-	&-main, &-details{
+	&-main,
+	&-details {
 		min-height: 100vh;
 	}
 
@@ -113,18 +115,20 @@ footer {
 }
 
 .registry-row {
-	margin-top: 5vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 
 	img {
 		box-sizing: border-box;
 		box-shadow: 0 .5rem 1rem rgba($color-black, .15);
 		border-radius: 15px;
-
 		transition: all .3s;
 		padding: 25px;
-		max-width: 100%;
+		flex: 1;
+		max-width: 80%;
 		height: 125px;
-		margin: 0 15px;
+		margin: 0 4rem;
 		border: 1px solid transparent;
 
 		@media(min-device-width: 320px) and (max-device-width: 425px) {
