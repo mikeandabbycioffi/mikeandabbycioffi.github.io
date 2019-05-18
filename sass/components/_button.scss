@@ -63,6 +63,7 @@
 }
 
 .btn-text {
+	margin-top: 4rem;
 	padding: 5px;
 	box-sizing: border-box;
 	height: 2.7rem;
@@ -125,7 +126,7 @@
 	//border: 1px solid $color-tertiary-light;
 	padding: 0px;
 	box-sizing: border-box;
-	font-family: $font-secondary;
+	font-family: $font-tertiary;
 	color: $color-tertiary-light;
 	padding: 1.5rem 2.5rem;
 
@@ -156,7 +157,7 @@
 		right: 0;
 		width: 100%;
 		height: .2rem;
-		background-color: $color-black;
+		background-color: #626262;
 		;
 		z-index: -1;
 
