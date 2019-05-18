@@ -175,35 +175,43 @@ body {
 .about-me-paragraph {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #777;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 15px; }
 
-.travel--text {
+.text-box {
   text-align: left;
-  line-height: 4rem;
-  font-family: "Roboto", sans-serif;
+  line-height: 6rem;
+  font-family: "Josefin Slab", serif;
   color: #000;
-  width: 100%; }
-  .travel--text h1 {
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-bottom: 15rem; }
+  .text-box:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .text-box h1 {
     padding: 1rem 1rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Josefin Slab", serif;
     color: #E1B22B;
     border-bottom: 2px solid #000;
-    font-size: 5rem;
-    overflow: hidden;
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
-    /* Adjust as needed */ }
-  .travel--text h2 {
-    font-size: 3rem; }
-  .travel--text h3 {
+    font-size: 4.5rem;
+    letter-spacing: .15em; }
+  .text-box h2 {
+    font-size: 2.5rem; }
+  .text-box h3 {
     font-size: 1.5rem; }
-    .travel--text h3 strong {
-      font-size: 3rem;
+    .text-box h3 strong {
+      font-size: 2.5rem;
       color: #E1B22B; }
-  .travel--text p {
-    font-size: 1.5rem; }
+    .text-box h3 a {
+      text-decoration: none;
+      color: currentColor; }
+      .text-box h3 a:hover {
+        color: blue; }
+  .text-box p {
+    line-height: 3rem;
+    font-size: 2rem; }
 
 #registry--text {
   text-align: center; }
@@ -363,6 +371,7 @@ footer {
   animation-fill-mode: backwards; }
 
 .btn-text {
+  margin-top: 4rem;
   padding: 5px;
   box-sizing: border-box;
   height: 2.7rem;
@@ -396,7 +405,7 @@ footer {
 .newbtn {
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Slab", serif;
   color: #E1B22B;
   padding: 1.5rem 2.5rem; }
   .newbtn:link, .newbtn:visited {
@@ -419,7 +428,7 @@ footer {
     right: 0;
     width: 100%;
     height: .2rem;
-    background-color: #000;
+    background-color: #626262;
     z-index: -1; }
   .btn-from-bottom:hover {
     color: white; }
