@@ -163,7 +163,7 @@ body {
         font-size: 10rem; } }
   .heading-primary--sub {
     display: block;
-    font-family: "Roboto", sans-serif;
+    font-family: "Josefin Slab", serif;
     color: #000;
     font-size: 1.5rem;
     font-weight: 100;
@@ -427,7 +427,7 @@ footer {
     bottom: 0;
     right: 0;
     width: 100%;
-    height: .2rem;
+    height: .1rem;
     background-color: #626262;
     z-index: -1; }
   .btn-from-bottom:hover {
