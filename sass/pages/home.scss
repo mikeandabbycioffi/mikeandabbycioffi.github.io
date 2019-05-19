@@ -42,7 +42,7 @@ footer {
   animation: moveInLeft 1s ease-out;
   margin-top: $margin-top-small;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-end;
   flex-wrap: wrap;
 
@@ -54,7 +54,9 @@ footer {
     list-style: none;
   }
 }
-
+.nav-half {
+  display: flex;
+}
 .nav-link {
   font-family: $font-secondary;
   text-decoration: none;

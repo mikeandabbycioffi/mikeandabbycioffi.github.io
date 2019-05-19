@@ -255,7 +255,7 @@ footer {
   animation: moveInLeft 1s ease-out;
   margin-top: 2.5rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-end;
   flex-wrap: wrap; }
   .nav li {
@@ -264,6 +264,9 @@ footer {
     align-content: center;
     justify-content: center;
     list-style: none; }
+
+.nav-half {
+  display: flex; }
 
 .nav-link {
   font-family: "Josefin Slab", serif;
