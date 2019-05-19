@@ -44,19 +44,19 @@ body {
   font-family: "Mindline Script Demo";
   src: url("fonts/Mindline Script Demo.ttf") format("truetype"); }
 
-@media (min-device-width: 375px) and (max-device-width: 850px) {
+@media (min-device-width: 690px) and (max-device-width: 850px) {
   /* Styles */
   html {
-    font-size: 35%; }
+    font-size: 60%; }
   body {
-    padding: 3vh 5vw; } }
+    padding: 1rem; } }
 
-@media (max-device-width: 375px) {
+@media (max-device-width: 690px) {
   /* Styles */
   html {
     font-size: 30%; }
   body {
-    padding: 3vh 5vw; } }
+    padding: 1rem; } }
 
 @media (max-device-width: 768px) and (orientation: landscape) {
   .section {
@@ -221,7 +221,6 @@ body {
   overflow: auto;
   display: block;
   position: relative;
-  padding-bottom: 100px;
   /* height of your footer */ }
 
 footer {
@@ -257,7 +256,8 @@ footer {
   margin-top: 2.5rem;
   display: flex;
   justify-content: center;
-  align-items: flex-end; }
+  align-items: flex-end;
+  flex-wrap: wrap; }
   .nav li {
     margin: 1rem;
     display: flex;
@@ -265,18 +265,21 @@ footer {
     justify-content: center;
     list-style: none; }
 
+.nav-half {
+  display: flex; }
+
 .nav-link {
   font-family: "Josefin Slab", serif;
   text-decoration: none;
   color: #777;
   text-transform: uppercase; }
   .nav-link::after {
-    content: '';
+    content: "";
     display: block;
     width: 0;
     height: 5px;
     background: black;
-    transition: width .5s; }
+    transition: width 0.5s; }
   .nav-link:hover {
     margin-bottom: 0px;
     color: #E1B22B; }
@@ -285,13 +288,10 @@ footer {
 
 .section {
   max-width: 80%;
-  margin: 0 auto;
-  min-height: 50vh; }
+  margin: 0 auto; }
   @media (min-width: 320px) and (max-width: 1300px) {
     .section {
       max-width: 100%; } }
-  .section-main, .section-details {
-    min-height: 100vh; }
 
 .registry-row {
   margin-top: 3rem;
@@ -302,7 +302,7 @@ footer {
     box-sizing: border-box;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     border-radius: 15px;
-    transition: all .1s;
+    transition: all 0.1s;
     padding: 25px;
     flex: 1;
     max-width: 80%;
@@ -338,7 +338,7 @@ footer {
     color: #E1B22B;
     border-bottom: 2px solid #000;
     font-size: 4.5rem;
-    letter-spacing: .15em; }
+    letter-spacing: 0.15em; }
   .text-box h2 {
     font-size: 2.5rem; }
   .text-box h3 {
@@ -363,7 +363,9 @@ footer {
   .ourStory--row:not(:last-child) {
     margin-bottom: 1rem; }
   .ourStory--row h2 {
-    font-size: 4rem; }
+    font-size: 4rem;
+    border-bottom: 1px solid grey;
+    margin-bottom: 2rem; }
   @media (max-width: 768px) {
     .ourStory--row {
       flex-direction: column; } }
