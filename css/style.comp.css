@@ -244,12 +244,11 @@ footer {
   margin-top: 2vh;
   margin-bottom: 25vh;
   max-width: 65%;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   opacity: 0;
   animation: moveInTop 1s ease-out;
-  animation-delay: .5s;
   animation-fill-mode: forwards; }
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     #us {
       max-width: 95%; } }
 
@@ -267,7 +266,7 @@ footer {
     list-style: none; }
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Slab", serif;
   text-decoration: none;
   color: #777;
   text-transform: uppercase; }
@@ -303,11 +302,11 @@ footer {
     box-sizing: border-box;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     border-radius: 15px;
-    transition: all .3s;
+    transition: all .1s;
     padding: 25px;
     flex: 1;
     max-width: 80%;
-    height: 125px;
+    max-height: 14rem;
     margin: 0 4rem;
     border: 1px solid transparent; }
     @media (min-width: 320px) and (max-width: 425px) {
@@ -387,22 +386,45 @@ footer {
   text-align: center;
   width: 70%; }
   .ourStory--right img {
+    border-radius: 1.5rem;
     max-height: 100%;
     max-width: 100%; }
   @media (max-width: 1100px) {
     .ourStory--right {
       width: 100%; } }
+  .ourStory--right .img-small {
+    max-width: 25%;
+    max-height: 40%; }
+    @media (max-width: 1100px) {
+      .ourStory--right .img-small {
+        max-height: 50%;
+        width: auto;
+        max-width: 100%; } }
+  .ourStory--right .img-medium {
+    max-width: 50%;
+    max-height: 40%; }
+    @media (max-width: 1100px) {
+      .ourStory--right .img-medium {
+        max-height: 50%;
+        width: auto;
+        max-width: 100%; } }
+  .ourStory--right .img-large {
+    max-width: 75%; }
+    @media (max-width: 1100px) {
+      .ourStory--right .img-large {
+        width: auto;
+        max-width: 100%; } }
 
-.img-small {
-  width: 25%;
-  height: 40%; }
-
-.img-medium {
-  width: 50%;
-  height: 40%; }
-
-.img-large {
-  width: 75%; }
+.facebook-stats {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2.5rem; }
+  .facebook-stats > * {
+    width: 100%; }
+  .facebook-stats i {
+    color: red; }
 
 .btn:link, .btn:visited {
   display: inline-block;
@@ -451,7 +473,7 @@ footer {
   padding: 5px;
   box-sizing: border-box;
   height: 2.7rem;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Josefin Slab", serif; }
   .btn-text:link, .btn-text:visited {
     font-size: 2rem;
     text-decoration: none;
