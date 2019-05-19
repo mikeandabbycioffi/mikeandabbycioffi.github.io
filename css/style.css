@@ -244,7 +244,7 @@ footer {
   margin-top: 2vh;
   margin-bottom: 25vh;
   max-width: 65%;
-  border-radius: 45px;
+  border-radius: 1.5rem;
   opacity: 0;
   animation: moveInTop 1s ease-out;
   animation-fill-mode: forwards; }
@@ -386,7 +386,7 @@ footer {
   text-align: center;
   width: 70%; }
   .ourStory--right img {
-    border-radius: 50px;
+    border-radius: 1.5rem;
     max-height: 100%;
     max-width: 100%; }
   @media (max-width: 1100px) {
