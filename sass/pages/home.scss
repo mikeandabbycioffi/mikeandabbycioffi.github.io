@@ -125,11 +125,11 @@ footer {
 		box-sizing: border-box;
 		box-shadow: 0 .5rem 1rem rgba($color-black, .15);
 		border-radius: 15px;
-		transition: all .3s;
+		transition: all .1s;
 		padding: 25px;
 		flex: 1;
 		max-width: 80%;
-		height: 125px;
+		max-height: 14rem;
 		margin: 0 4rem;
 		border: 1px solid transparent;
 
