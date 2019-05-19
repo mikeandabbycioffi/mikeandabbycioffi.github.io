@@ -255,9 +255,8 @@ footer {
 
 .nav {
   animation: moveInLeft 1s ease-out;
-  margin-top: 25px;
+  margin-top: 2.5rem;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end; }
   .nav li {
