@@ -29,10 +29,9 @@ footer {
 	margin-top: 2vh;
 	margin-bottom: 25vh;
 	max-width: 65%;
-	border-radius: 15px;
+	border-radius: 45px;
 	opacity: 0;
 	animation: moveInTop 1s ease-out;
-	animation-delay: .5s;
 	animation-fill-mode: forwards;
 
 	@media(max-width: 768px) {
@@ -265,6 +264,7 @@ footer {
 		width: 70%;
 
 		img {
+			border-radius: 50px;
 			max-height: 100%;
 			max-width: 100%;
 		}
