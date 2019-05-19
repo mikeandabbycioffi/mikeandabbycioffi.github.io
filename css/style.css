@@ -44,14 +44,14 @@ body {
   font-family: "Mindline Script Demo";
   src: url("fonts/Mindline Script Demo.ttf") format("truetype"); }
 
-@media (min-device-width: 375px) and (max-device-width: 850px) {
+@media (min-device-width: 690px) and (max-device-width: 850px) {
   /* Styles */
   html {
-    font-size: 35%; }
+    font-size: 60%; }
   body {
     padding: 1rem; } }
 
-@media (max-device-width: 375px) {
+@media (max-device-width: 690px) {
   /* Styles */
   html {
     font-size: 30%; }
