@@ -442,8 +442,7 @@ footer {
     font-size: 1.5rem;
     position: relative; }
   .newbtn__border {
-    border: 1px solid #E1B22B;
-    border-bottom: 0; }
+    border: 1px solid #E1B22B; }
 
 .btn-from-bottom {
   position: relative;
@@ -464,6 +463,27 @@ footer {
     color: white; }
     .btn-from-bottom:hover:before {
       height: 100%;
+      background-color: #E1B22B; }
+
+.btn-from-left {
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.52, 1.64, 0.37, 0.66) !important;
+  z-index: 1; }
+  .btn-from-left:before {
+    transition: all 0.5s cubic-bezier(0.52, 1.64, 0.37, 0.66) !important;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #E1B22B;
+    z-index: -1; }
+  .btn-from-left:hover {
+    color: white; }
+    .btn-from-left:hover:before {
+      width: 100%;
       background-color: #E1B22B; }
 
 #return-to-top {
