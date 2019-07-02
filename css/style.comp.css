@@ -54,7 +54,7 @@ body {
 @media (max-device-width: 690px) {
   /* Styles */
   html {
-    font-size: 30%; }
+    font-size: 45%; }
   body {
     padding: 1rem; } }
 
@@ -141,7 +141,7 @@ body {
   to {
     border-color: transparent; }
   50% {
-    border-color: #E1B22B; } }
+    border-color: #e1b22b; } }
 
 .heading-primary {
   text-transform: uppercase;
@@ -149,7 +149,7 @@ body {
   margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
-    color: #000;
+    color: #444444;
     font-family: "Mindline Script Demo", monospace;
     font-size: 15rem;
     font-weight: 400;
@@ -164,16 +164,16 @@ body {
   .heading-primary--sub {
     display: block;
     font-family: "Josefin Slab", serif;
-    color: #000;
+    color: #444444;
     font-size: 1.5rem;
     font-weight: 100;
-    letter-spacing: .5rem;
+    letter-spacing: 0.5rem;
     animation: moveInRight 1s ease-out; }
     .heading-primary--sub sup {
       letter-spacing: 0; }
 
 .about-me-paragraph {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #777;
   font-size: 2.5rem;
   margin-bottom: 15px; }
@@ -182,7 +182,7 @@ body {
   text-align: left;
   line-height: 6rem;
   font-family: "Josefin Slab", serif;
-  color: #000;
+  color: #444444;
   width: 100%;
   padding: 2rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -193,17 +193,17 @@ body {
   .text-box h1 {
     padding: 1rem 1rem;
     font-family: "Josefin Slab", serif;
-    color: #E1B22B;
-    border-bottom: 2px solid #000;
+    color: #e1b22b;
+    border-bottom: 2px solid #444444;
     font-size: 4.5rem;
-    letter-spacing: .15em; }
+    letter-spacing: 0.15em; }
   .text-box h2 {
     font-size: 2.5rem; }
   .text-box h3 {
     font-size: 1.5rem; }
     .text-box h3 strong {
       font-size: 2.5rem;
-      color: #E1B22B; }
+      color: #e1b22b; }
     .text-box h3 a {
       text-decoration: none;
       color: currentColor; }
@@ -238,6 +238,9 @@ footer {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain; }
+  @media (max-width: 425px) {
+    .background--floral {
+      height: 3rem; } }
 
 #us {
   margin-top: 2vh;
@@ -282,7 +285,7 @@ footer {
     transition: width 0.5s; }
   .nav-link:hover {
     margin-bottom: 0px;
-    color: #E1B22B; }
+    color: #e1b22b; }
     .nav-link:hover:after {
       width: 100%; }
 
@@ -300,7 +303,7 @@ footer {
   flex-wrap: wrap; }
   .registry-row img {
     box-sizing: border-box;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(68, 68, 68, 0.15);
     border-radius: 15px;
     transition: all 0.1s;
     padding: 25px;
@@ -315,17 +318,17 @@ footer {
         margin: 0; } }
     .registry-row img:hover {
       cursor: pointer;
-      box-shadow: 0.4rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+      box-shadow: 0.4rem 0.5rem 1rem rgba(68, 68, 68, 0.5);
       transform: translateY(-2px); }
     .registry-row img:active {
-      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0.5rem 1rem rgba(68, 68, 68, 0.15);
       transform: translateY(0); }
 
 .text-box {
   text-align: left;
   line-height: 6rem;
   font-family: "Josefin Slab", serif;
-  color: #000;
+  color: #444444;
   width: 100%;
   padding: 2rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -335,8 +338,8 @@ footer {
   .text-box h1 {
     padding: 1rem 1rem;
     font-family: "Josefin Slab", serif;
-    color: #E1B22B;
-    border-bottom: 2px solid #000;
+    color: #e1b22b;
+    border-bottom: 2px solid #444444;
     font-size: 4.5rem;
     letter-spacing: 0.15em; }
   .text-box h2 {
@@ -345,7 +348,7 @@ footer {
     font-size: 1.5rem; }
     .text-box h3 strong {
       font-size: 2.5rem;
-      color: #E1B22B; }
+      color: #e1b22b; }
     .text-box h3 a {
       text-decoration: none;
       color: currentColor; }
@@ -433,8 +436,9 @@ footer {
   box-sizing: border-box;
   font-family: "Josefin Slab", serif;
   letter-spacing: 0.2rem;
-  color: #E1B22B;
-  padding: 1.5rem 2.5rem; }
+  color: #e1b22b;
+  padding: 1.5rem 2.5rem;
+  line-height: 1.5rem; }
   .newbtn:link, .newbtn:visited {
     display: inline-block;
     text-transform: uppercase;
@@ -442,7 +446,7 @@ footer {
     font-size: 1.5rem;
     position: relative; }
   .newbtn__border {
-    border: 1px solid #E1B22B; }
+    border: 1px solid #e1b22b; }
 
 .btn-from-bottom {
   position: relative;
@@ -457,13 +461,13 @@ footer {
     right: 0;
     width: 100%;
     height: 0.1rem;
-    background: #E1B22B;
+    background: #e1b22b;
     z-index: -1; }
   .btn-from-bottom:hover {
     color: white; }
     .btn-from-bottom:hover:before {
       height: 100%;
-      background-color: #E1B22B; }
+      background-color: #e1b22b; }
 
 .btn-from-left {
   position: relative;
@@ -478,13 +482,13 @@ footer {
     left: 0;
     width: 0%;
     height: 100%;
-    background: #E1B22B;
+    background: #e1b22b;
     z-index: -1; }
   .btn-from-left:hover {
     color: white; }
     .btn-from-left:hover:before {
       width: 100%;
-      background-color: #E1B22B; }
+      background-color: #e1b22b; }
 
 #return-to-top {
   position: fixed;
@@ -526,3 +530,25 @@ footer {
 #return-to-top:hover i {
   color: #fff;
   top: 5px; }
+
+.table {
+  width: 100%; }
+  .table .shuttle-heading {
+    font-size: 2rem;
+    border-bottom: 1px solid black; }
+  .table h2 {
+    line-height: 4rem;
+    font-size: 2rem; }
+
+.shuttle-time-container {
+  display: flex;
+  flex-wrap: wrap; }
+  @media (max-width: 768px) {
+    .shuttle-time-container {
+      justify-content: center; } }
+
+.shuttle-time {
+  font-size: 2rem;
+  padding: 1.5rem 4rem;
+  margin: 2.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }

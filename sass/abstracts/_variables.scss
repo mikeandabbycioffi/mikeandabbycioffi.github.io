@@ -3,23 +3,19 @@ $default-font-size: 1.6rem;
 
 //font colors
 $color-font-primary: #777;
-$color-font-secondary:#4b6584;
-
+$color-font-secondary: #4b6584;
 
 //colors
 $color-grey-light-1: #f7f7f7;
 
-
-
 $color-grey-dark: #777;
 $color-white: #fff;
-$color-black: #000;
+$color-black: #444444;
 
 //card colors
 
-$color-tertiary-light: #E1B22B;
+$color-tertiary-light: #e1b22b;
 $color-tertiary-medium: rgb(172, 137, 33);
-
 
 //GRID
 $grid-row-height-large: 95vh;
@@ -33,16 +29,10 @@ $gutter-vertical-project: 0rem;
 
 $gutter-horizontal-project: 0rem;
 
+$margin-top-small: 2.5rem;
+$margin-top-large: 4rem;
 
+$font-primary: "Mindline Script Demo", monospace;
+$font-secondary: "Josefin Slab", serif;
 
-
-$margin-top-small:2.5rem;
-$margin-top-large:4rem;
-
-$font-primary:'Mindline Script Demo',
-monospace;
-$font-secondary: 'Josefin Slab',
-serif;
-
-$font-tertiary: 'Josefin Slab',
-serif;
+$font-tertiary: "Josefin Slab", serif;
